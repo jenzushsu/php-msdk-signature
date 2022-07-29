@@ -1,6 +1,6 @@
 # Sample Zoom Meeting SDK PHP Signature Generator
 
-This is a sample php app that generates an encrypted SDK JSON Web Token (JWT) for Zoom Meeting SDK. This helps developers to quickly generate JWT token using the [SDK App Type](https://marketplace.zoom.us/docs/guides/build/sdk-app/) credentials.
+This is a sample PHP code that generates an encrypted SDK JSON Web Token (JWT) for Zoom Meeting SDK. This helps developers to quickly generate JWT token using the [SDK App Type](https://marketplace.zoom.us/docs/guides/build/sdk-app/) credentials.
 
 JWT is generated based on the following core parts as stated in the [documentation](https://marketplace.zoom.us/docs/sdk/native-sdks/auth#generate-the-sdk-jwt). Please create an environment file to store your SDK Key and Secret.
 
