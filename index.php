@@ -15,5 +15,5 @@
         
         return $jwt;
     }
-    // echo($_ENV['SDK_KEY']);
+    
     echo(generateSignature($_ENV['SDK_KEY'], $_ENV['SDK_SECRET'], 12345678912, 0));
